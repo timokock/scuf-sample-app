@@ -1,0 +1,21 @@
+{
+  "name": "connected.maintenance.portal",
+  "description": "The connected maintenance project uses the Sentience Common UI Framework (SCUF) components.",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "postinstall": "cd client && yarn install && cd ../server && yarn install",
+    "test:cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "jest-mock-axios": "^2.1.11",
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.3.0",
+    "@hazardouswizard/common": "^0.50.0",
+    "@types/jest": "^24.0.11"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "_comment": "comment text goes here...",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@Routes/*": ["routes"],
+            "@Assets/*": ["assets/*"],
+            "@Stores/*": ["stores/*"],
+            "@Utils/*": ["utils/*"],
+            "@Services/*": ["services/*"],
+            "@Partials/*": ["partials/*"]
+        }
+    }
+}

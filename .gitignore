@@ -1,0 +1,4 @@
+node_modules/
+docker_logs.txt
+yarn-error.log
+.DS_Store

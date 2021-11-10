@@ -1,0 +1,23 @@
+@import '~@scuf/styles/variables.scss';
+
+.list-header {
+    width: 100%;
+    padding: $hcui-spacing-lg 0;
+
+    .title-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .right-header {
+        display: flex;
+        flex-direction: row;
+    
+        .create-button{
+            height: 3rem !important;
+            margin-left: 20px !important;
+        }
+    }
+}

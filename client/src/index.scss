@@ -1,0 +1,53 @@
+.max-width {
+    width: auto;
+}
+
+.loader-frame {
+    position: relative;
+}
+.contact-buttons {
+    width: 120px;
+    height: 100px;
+    display: inline-block;
+    background: #F7F7F7;
+    border: 1px solid rgb(189, 189, 189);
+    text-align: center;
+    color: #4291C6;
+    padding: 1.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.separator {
+    padding: 1.5em;
+    height: 100px;
+    border-left: 1px solid #979797;
+    margin-left: -20px;
+    margin-top: 1em;
+}
+
+.contact-us-area .submit-button {
+    text-align: right !important;
+}
+
+.contact-us-resource-title {
+    padding-left: 20px;
+    border-left: 1px solid #979797;
+}
+
+.contact-us-resources.row {
+    display: block !important;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.contact-us-resources.h-icon {
+    color: #4291C6;
+}
+
+.loader-frame {
+    position: relative;
+}
